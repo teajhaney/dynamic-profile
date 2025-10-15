@@ -22,9 +22,9 @@ export const fetchDynamicProfileInfo = async (req: Request, res: Response) => {
     //response object
     const responseData: ProfileResponse = {
       status: 'success',
-      user: user,
-      timestamp: timestamp,
-      fact: fact,
+      user,
+      timestamp,
+      fact,
     };
 
     // Send the response
