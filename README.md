@@ -100,10 +100,6 @@ npm run build
 
 All required environment variables should be defined in a `.env` file in the project root.
 
-- **`CAT_FACT_API_URL`**: The URL for the external Cat Facts API.
-  _Example_: `CAT_FACT_API_URL="https://catfact.ninja/fact"`
-- **`CAT_FACT_TIMEOUT`**: Timeout in milliseconds for the Cat Facts API request.
-  _Example_: `CAT_FACT_TIMEOUT="5000"`
 - **`NODE_ENV`**: The current environment (e.g., `development`, `production`).
   _Example_: `NODE_ENV="development"`
 - **`PORT`**: The port number on which the server will listen.
