@@ -2,7 +2,7 @@ import type { Response, Request } from 'express';
 import { handleError } from '../middleware/handleError.ts';
 import { fetchCatFact } from '../utils/catFact.ts';
 import type { ProfileResponse, UserProfile } from '../types.ts';
-import { MY_EMAIL, MY_NAME, MY_STACK } from '../config/index.ts';
+
 
 export const fetchDynamicProfileInfo = async (req: Request, res: Response) => {
   try {
@@ -11,9 +11,9 @@ export const fetchDynamicProfileInfo = async (req: Request, res: Response) => {
 
     //static user data
     const user: UserProfile = {
-      email: MY_EMAIL,
-      name: MY_NAME,
-      stack: MY_STACK,
+      email: 'teajhaney@gmail.com',
+      name: 'Yusuf Tijani Olatunde',
+      stack: 'Node.js/Express/JavaScript/TypeScript',
     };
 
     //Generate the dynamic timestamp in ISO 8601 format
