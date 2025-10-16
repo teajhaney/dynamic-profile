@@ -107,7 +107,7 @@ All required environment variables should be defined in a `.env` file in the pro
 
 ## API Documentation
 
-### NODE
+### NOTE:
 
 In the profile controller, Edit the email, name and stack in the fetchDynamicProfileInfo function to your prefered statci user info.
 
